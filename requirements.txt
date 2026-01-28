@@ -1,0 +1,18 @@
+# Requirements file (works with or without BotCity)
+# BotCity packages are optional - code will use pyautogui fallback if not available
+
+# Optional: BotCity framework (install if available)
+# botcity-framework-base>=0.4.0
+# botcity-maestro-sdk>=1.0.0
+
+# Required: Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+requests>=2.31.0
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+
+# Optional: For better text detection (OCR)
+# pytesseract>=0.3.10
+# Note: Also need to install Tesseract OCR from: https://github.com/UB-Mannheim/tesseract/wiki
